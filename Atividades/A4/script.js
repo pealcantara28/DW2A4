@@ -5,7 +5,15 @@ var covid = new Covid()
 
 document.getElementById('CEP').addEventListener('blur', (e) => {
     let cep = document.getElementById('CEP').value
-    getCep(cep)
+    if (cep !== "" && cep !== null) {
+        getCep(cep)
+        document.getElementById('message').classList.add('visuallyHidden')
+        document.getElementById('tableCovid').classList.remove('visuallyHidden')
+    }
+    else {
+        document.getElementById('message').classList.remove('visuallyHidden')
+        document.getElementById('tableCovid').classList.add('visuallyHidden')
+    }
 })
 
 function getCep(cep) {

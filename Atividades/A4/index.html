@@ -15,18 +15,22 @@
     <div class="panel">
         <div>
             <label>CEP</label>
-            <input class="input" type="text" id="CEP">
+            <input class="input" type="text" id="CEP" data-js="cep">
         </div>
         <br />
         <div class="table">
-            <div id="tableCovid"></div>
+            <div id="message">Digite seu CEP acima para receber Informações sobre o Covid em sua Região</div>
+            <div id="tableCovid" class="visuallyHidden"></div>
         </div>
     </div>
     <div>
-        <a href="https://github.com/pealcantara28" class="title" target="_blank"><h4>Pedro Henrique de Lara Alcântara | SP3072649 | IFSP | DW2A4</h4></a>
+        <a href="https://github.com/pealcantara28" class="title" target="_blank">
+            <h4>Pedro Henrique de Lara Alcântara | SP3072649 | IFSP | DW2A4</h4>
+        </a>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tabulator/5.3.4/js/tabulator.min.js"
         integrity="sha512-aa+j+rXcXzhJc9iVd8UeCm4alfFirGQl3TKI5NH76C7FGAUi3ZeAKgqBWXGCmQO+oTUrphnToF2+YWHWT14eCg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="module" src="script.js"></script>
+    <script type="module" src="../A3/src/js/main.js"></script>
 </body>
