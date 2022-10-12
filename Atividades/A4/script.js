@@ -17,7 +17,8 @@ document.getElementById('CEP').addEventListener('blur', (e) => {
 })
 
 function getCep(cep) {
-    viacep.getData(cep).then(responseCep => responseCep.json())
+    viacep.getData(cep)
+        .then(responseCep => responseCep.json())
         .then(endereco => {
             getCovid(endereco.uf)
         })
