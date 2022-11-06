@@ -4,7 +4,9 @@
 <div>
     <ul>
         <li *ngFor="let d of data">
-            <span [ngStyle]="{'color':(d.id%2==0) ? 'red' : 'green'}"><b>{{d.id}}</b> - {{d.name}} <span *ngIf="d.name == 'exemplo'"> - EXEMPLO DE IF</span></span>
+            <span [ngStyle]="{'color':(d.id%2==0) ? 'red' : 'green'}"><b>{{d.id}}</b> - {{d.name}}
+                <span *ngIf="d.name == 'exemplo'"> - EXEMPLO DE IF</span>
+            </span>
         </li>
     </ul>
 </div>
