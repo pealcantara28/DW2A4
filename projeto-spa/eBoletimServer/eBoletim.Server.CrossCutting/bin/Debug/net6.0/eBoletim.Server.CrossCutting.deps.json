@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "eBoletim.Server.CrossCutting/1.0.0": {
+        "dependencies": {
+          "eBoletimServer.Domain": "1.0.0"
+        },
+        "runtime": {
+          "eBoletim.Server.CrossCutting.dll": {}
+        }
+      },
+      "eBoletimServer.Domain/1.0.0": {
+        "runtime": {
+          "eBoletimServer.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eBoletim.Server.CrossCutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eBoletimServer.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

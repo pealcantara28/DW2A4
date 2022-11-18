@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QaQ4+j2y5ev4E3kdUvsa8BkQOnPs8B99Tw7ZJTK/Yp8=",
+  "Source": "eBoletimServer.API",
+  "BasePath": "_content/eBoletimServer.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
